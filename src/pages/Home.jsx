@@ -5,6 +5,7 @@ import {
   Featured,
   Hero,
   Operation,
+  Portfolio,
   TourCategories,
 } from "../components";
 
@@ -16,7 +17,8 @@ const Home = () => {
       <Destinations />
       <Featured />
       <FAQs />
-      <Operation />
+      <Portfolio />
+      {/* <Operation /> */}
     </div>
   );
 };

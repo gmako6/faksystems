@@ -12,13 +12,13 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div>
-      <div className="hero ">
+      <div className="bg-[url('https://www.shutterstock.com/shutterstock/videos/1097472473/thumb/1.jpg?ip=x480')] bg-cover ">
         <div className="container mx-auto md:py-24 py-10 px-5 rounded-lg ">
           <div className="hero-content text-center md:text-start flex flex-col md:flex-row">
             <div className="">
               <h1 className="md:text-7xl text-3xl text-white font-bold tracking-wide">
                 <span className="btn bg-[#683e12] hover:bg-[#683e12] border-none rounded-full mb-5">
-                  <h1 className="text-xs ">Welcome to Tanzaniatrails.</h1>
+                  <h1 className="text-xs ">Tech Point Zone.</h1>
                 </span>
                 <br />
                 <span className="drop-shadow-lg">

@@ -13,7 +13,7 @@ export const Destinations = () => {
         <div className="col-span-2">
           <div className="flex flex-col space-y-5">
             <div className="grid grid-cols-1 md:grid-cols-3 space-y-5 md:space-y-0 md:gap-5">
-              <div className="p-5 col-span-2  bg-cover bg-center  rounded-lg">
+              <div className="p-5 col-span-2  bg-cover bg-center  rounded-lg h-60">
                 <h1 className="md:">
                   <Title
                     title={
