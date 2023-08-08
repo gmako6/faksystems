@@ -50,61 +50,37 @@ const Footer = () => {
                 Press kit
               </Link>
             </div>
-            {/**Tours */}
-            <div className="flex flex-col">
-              <span className="footer-title">Tours</span>
-              <a href="#hero" className="text-slate-100 hover:text-primary">
-                About us
-              </a>
-              <a href="#faqs" className="text-slate-100 hover:text-primary">
-                Contact
-              </a>
-              <Link
-                to={"/jobs"}
-                href="#"
-                className="text-slate-100 hover:text-primary"
-              >
-                Jobs
-              </Link>
-              <Link
-                to={"/press-kit"}
-                href="#"
-                className="text-slate-100 hover:text-primary"
-              >
-                Press kit
-              </Link>
-            </div>
 
             {/**Services */}
             <div className="">
               <span className="footer-title">Services</span>
               <Link
-                to={"/greengpt"}
+                to={"/webdev"}
                 href="#"
                 className="text-slate-100 hover:text-primary"
               >
-                GreenGPT AI
+                Website Development.
               </Link>
               <Link
-                to={"/a2e"}
+                to={"/network"}
                 href="#"
                 className="text-slate-100 hover:text-primary"
               >
-                A2E
+                Networking
               </Link>
               <Link
                 to={"/stake"}
                 href="#"
                 className="text-slate-100 hover:text-primary"
               >
-                Staking
+                Hosting
               </Link>
               <Link
                 to={"/marketplace"}
                 href="#"
                 className="text-slate-100 hover:text-primary"
               >
-                Marketplace
+                Software Development
               </Link>
             </div>
             {/**Legal */}
@@ -133,7 +109,7 @@ const Footer = () => {
         <footer className="footer items-center px-4 p-4 bg-[#180f04] text-neutral-content container mx-auto rounded-t-lg ">
           <>
             <div className="items-center grid-flow-col ">
-              <p>Copyright © 2023 -Tanzania Trails. All right reserved.</p>
+              <p>Copyright © 2023 - FAK Systems Co. Ltd. All right reserved.</p>
             </div>
             <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
               <Link>

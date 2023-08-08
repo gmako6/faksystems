@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithubAlt, FaGoogle, FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithubAlt, FaGoogle, FaTelegram, FaTwitter } from "react-icons/fa";
 import { HiArrowCircleRight } from "react-icons/hi";
 
 const FAQs = () => {
@@ -100,12 +100,11 @@ const FAQs = () => {
                   className=""
                 >
                   <div className="stat-value">
-                    <FaGoogle className="" size={40} />
+                    <FaGoogle className="text-red-500" size={40} />
                   </div>
-                  <div className="stat-desc mt-2">@GreenGTP</div>
+                  {/* <div className="stat-desc mt-2">@GreenGTP</div> */}
                 </a>
               </div>
-
               <div className="stat">
                 <a
                   href="https://t.me/greengpt_ai"
@@ -114,12 +113,24 @@ const FAQs = () => {
                   className=""
                 >
                   <div className="stat-value">
-                    <FaTelegram className="" />
+                    <FaTelegram className="text-red-500" size={40} />
                   </div>
-                  <div className="stat-desc mt-2">@GreenGTP</div>
+                  {/* <div className="stat-desc mt-2">@GreenGTP</div> */}
                 </a>
               </div>
-
+              <div className="stat">
+                <a
+                  href="https://t.me/greengpt_ai"
+                  target="_blank"
+                  rel="noreferrer"
+                  className=""
+                >
+                  <div className="stat-value">
+                    <FaFacebook className="text-red-500" size={40} />
+                  </div>
+                  {/* <div className="stat-desc mt-2">@GreenGTP</div> */}
+                </a>
+              </div>
               <div className="stat">
                 <a
                   href="https://twitter.com/gGPT_ai"
@@ -128,9 +139,9 @@ const FAQs = () => {
                   className=""
                 >
                   <div className="stat-value">
-                    <FaTwitter className="" />
+                    <FaTwitter className="text-red-500" size={40} />
                   </div>
-                  <div className="stat-desc mt-2">@GreenGTP</div>
+                  {/* <div className="stat-desc mt-2">@GreenGTP</div> */}
                 </a>
               </div>
             </div>

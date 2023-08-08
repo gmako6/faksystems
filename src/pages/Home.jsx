@@ -1,12 +1,11 @@
 import React from "react";
 import {
-  Destinations,
-  FAQs,
+  Services,
   Featured,
   Hero,
-  Operation,
   Portfolio,
   TourCategories,
+  AboutUs,
 } from "../components";
 
 const Home = () => {
@@ -14,11 +13,10 @@ const Home = () => {
     <div className="">
       <Hero />
       <TourCategories />
-      <Destinations />
+      <AboutUs />
       <Featured />
-      <FAQs />
+      <Services />
       <Portfolio />
-      {/* <Operation /> */}
     </div>
   );
 };

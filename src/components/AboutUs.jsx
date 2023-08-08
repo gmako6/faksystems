@@ -2,18 +2,22 @@ import React from "react";
 import { Title } from "./Title";
 import { HiChevronRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import { Dots } from "./Dots";
 
-export const Destinations = () => {
+export const AboutUs = () => {
   return (
     <div className="container mx-auto p-5 md:pt-24 py-10">
       <div className="mt-5 grid grid-cols-1 md:grid-cols-3 space-y-5 md:space-y-0 md:gap-10">
-        <div className=" p-5 bg-[url('https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBwcm9mZXNzaW9uYWxzfGVufDB8fDB8fHww&w=1000&q=80')] bg-cover bg-center rounded-lg">
-          1434
-        </div>
+        <div className="md:p-0 bg-[url('https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBwcm9mZXNzaW9uYWxzfGVufDB8fDB8fHww&w=1000&q=80')] bg-cover bg-center rounded-lg h-45 p-28"></div>
         <div className="col-span-2">
           <div className="flex flex-col space-y-5">
             <div className="grid grid-cols-1 md:grid-cols-3 space-y-5 md:space-y-0 md:gap-5">
-              <div className="p-5 col-span-2  bg-cover bg-center  rounded-lg h-60">
+              <div className="p-5 col-span-2  bg-cover bg-center  rounded-lg h-45">
+                <Dots
+                  color={"blue"}
+                  title={"about us"}
+                  position={" md:justify-start justify-center"}
+                />
                 <h1 className="md:">
                   <Title
                     title={
@@ -23,7 +27,7 @@ export const Destinations = () => {
                   />
                 </h1>
               </div>
-              <div className=" p-5 "></div>
+              <div className=" p-5"></div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 space-y-5 md:space-y-0 md:gap-5">
               <div className="px-5">

@@ -3,12 +3,11 @@ import { HiChevronRight, HiOutlineMenuAlt1 } from "react-icons/hi";
 import { FiChevronDown } from "react-icons/fi";
 import { Logo } from "../assets";
 import { Link } from "react-router-dom";
-import "./buttons.css";
 
 const NavBar = () => {
   return (
-    <div className="bg-white text-slate-900 py-2">
-      <div className="navbar  container mx-auto">
+    <div className="bg-white text-slate-900 py-2 relative">
+      <div className="navbar  container mx-auto drop-shadow-lg">
         <>
           <div className="navbar-start">
             <div className="dropdown">
@@ -150,7 +149,7 @@ const NavBar = () => {
             <span className="hidden md:flex rounded-full">
               <Link
                 to={"/tailormade"}
-                className="btn bg-[#683e12] hover:bg-[#51300d] rounded-full space-1 mt-1 border-none hover:drop-shadow-lg"
+                className="btn bg-gradient-to-r from-red-500 to-pink-500 rounded-full space-1 mt-1 border-none hover:drop-shadow-lg"
               >
                 Book
                 <HiChevronRight size={24} />
